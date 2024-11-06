@@ -6,7 +6,6 @@ const {route} = require('./routes/auth')
 const MongoStore = require('connect-mongo');
 const expressLayouts = require('express-ejs-layouts');
 const app = express()
-const port = 3000
 
 connectDB();
 // Middleware
